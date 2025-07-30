@@ -1,12 +1,76 @@
-# React + Vite
+# 🍔 Vite Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido com **React + Vite** e estilizado com **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖼️ Prévia do Projeto
 
-## Expanding the ESLint configuration
+### 🏠 Home
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Home Screenshot](./prints/home.png)
+
+---
+
+### 📝 Cadastro
+
+![Cadastro Screenshot](./prints/cadastro.png)
+
+---
+
+### 📦 Controle de Pedidos
+
+![Pedidos Screenshot](./prints/pedidos.png)
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Heroicons](https://heroicons.com/)
+- [Headless UI](https://headlessui.dev/)
+
+## 📁 Estrutura do projeto
+
+vite-project/
+├── public/
+│ └── favicon.svg (ou logo)
+├── src/
+│ ├── assets/ # Imagens, ícones, fontes
+│ ├── components/ # Componentes reutilizáveis
+│ │ └── Header.jsx
+│ │ └── Footer.jsx
+│ │ └── Button.jsx
+│ ├── pages/ # Telas principais
+│ │ └── Home.jsx
+│ │ └── Cadastro.jsx
+│ │ └── Pedidos.jsx
+│ ├── routes/ # Gerenciamento de rotas (opcional)
+│ │ └── AppRoutes.jsx
+│ ├── styles/ # Tailwind + custom styles
+│ │ └── globals.css
+│ ├── App.jsx
+│ └── main.jsx
+├── prints/ # Prints da UI
+├── tailwind.config.js
+├── postcss.config.js
+├── index.html
+└── package.json
+
+## 📁 bash
+
+```bash
+# Clone o repositório
+git clone https://github.com/rafaelhuber/vite-project.git
+
+# Acesse a pasta
+cd vite-project
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+```

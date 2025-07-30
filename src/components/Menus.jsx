@@ -8,8 +8,9 @@ function classNames(...classes) {
 export default function Menus(props) {
   const navigation = [
     { name: "Home", href: "/" },
+    { name: "Fila de Pedidos", href: "/orderqueue" },
     { name: "Fazer o Pedidos", href: "/register" },
-    { name: "Controle do Pedido", href: "/solicitation" },
+    { name: "Controle do Pedido", href: "/orders" },
   ];
   const location = useLocation();
 

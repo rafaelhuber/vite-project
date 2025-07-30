@@ -1,11 +1,11 @@
 // components/Layout.jsx
 import { Outlet, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Menus from "./Menus";
+import Menus from "../components/Menus";
 import banner from "../assets/banner.jpg";
-import Footer from "./Footer";
+import Footer from "../components/Footer";
 
-function Layout() {
+function Header() {
   const [linkMenu, setLinkMenu] = useState("");
   const navigate = useNavigate();
 
@@ -42,4 +42,4 @@ function Layout() {
   );
 }
 
-export default Layout;
+export default Header;

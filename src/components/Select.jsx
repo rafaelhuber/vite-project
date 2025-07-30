@@ -6,7 +6,7 @@ function Select({ value, checkMap, submitItem, resetSelect, RoomId }) {
     }
   });
   useEffect(() => {
-    RoomId(""); // ou o que for necessário para resetar o estado
+    RoomId("");
   }, [resetSelect]);
 
   function onClick(e) {

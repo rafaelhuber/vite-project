@@ -11,7 +11,7 @@ function OptionsAdd(props) {
   }, [roomId]);
 
   useEffect(() => {
-    setRoomId([]); // ou o que for necessário para resetar o estado
+    setRoomId([]);
   }, [props.reset]);
 
   const handleChange = (e) => {
