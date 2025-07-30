@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight.css" layer(base);
+
+@layer base {
+  * {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  }
+}
