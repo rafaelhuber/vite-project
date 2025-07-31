@@ -89,7 +89,7 @@ vite-project/
 
 > Uma apresentação visual da hamburgueria, com o nome em destaque.
 
-![Home Screenshot](./prints/home.png)
+<img src="./prints/home.png" alt="Cadastro de Pedidos" width="500"/>
 
 ---
 
@@ -97,7 +97,7 @@ vite-project/
 
 > Formulário interativo com seleção de pão, carne e adicionais.
 
-![Cadastro Screenshot](./prints/cadastro.png)
+<img src="./prints/cadastro.png" alt="Cadastro de Pedidos" width="500"/>
 
 ---
 
@@ -105,7 +105,15 @@ vite-project/
 
 > Exibição os pedidos realizados com status atualizado.
 
-![Pedidos Screenshot](./prints/filaPedidos.png)
+<img src="./prints/filePedidos.png" alt="Cadastro de Pedidos" width="500"/>
+
+---
+
+### 📦 Fila de Pedidos
+
+> Exibição organizada dos pedidos realizados com status atualizado.
+
+<img src="./prints/Pedidos.png" alt="Cadastro de Pedidos" width="500"/>
 
 ---
 
