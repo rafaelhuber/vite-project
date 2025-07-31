@@ -1,6 +1,7 @@
 // components/Layout.jsx
 import hambuGG from "../assets/hamburguer_gigante.jpg";
 import { useNavigate } from "react-router-dom";
+import Title from "../components/Title";
 
 function Home() {
   const navigate = useNavigate();
@@ -18,14 +19,12 @@ function Home() {
         <div className="flex flex-col md:flex-row items-center justify-between px-8 py-12 gap-8">
           {/* Texto */}
           <div className="md:w-1/2">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">
-              Monte o seu hambúrguer como quiser!
-            </h2>
-            <p className="text-gray-600 text-lg mb-4">
+            <Title>Monte o seu hambúrguer como quiser!</Title>
+            <p className="text-gray-600 text-lg m-4">
               Cansado de pedir sempre a mesma coisa? Aqui, você escolhe cada
               ingrediente do seu lanche, do jeitinho que gosta.
             </p>
-            <p className="text-gray-600 text-lg mb-4">
+            <p className="text-gray-600 text-lg m-4">
               Imagina a melhor carne, o pão que você adora e os complementos dos
               seus sonhos... tudo isso feito por você!
             </p>

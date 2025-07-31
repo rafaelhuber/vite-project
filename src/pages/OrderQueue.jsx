@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import TicketTable from "../components/TicketTable";
 import { getTicketsWithStatus } from "../services/storage";
+import Title from "../components/Title";
 
 function OrderQueue() {
   const [tickets, setTickets] = useState(getTicketsWithStatus());
@@ -22,9 +23,7 @@ function OrderQueue() {
   return (
     <div className="flex justify-center">
       <div className="p-6 space-y-4">
-        <p className="px-4 py-2 text-4xl font-bold text-amber-500 text-center underline underline-offset-8">
-          Lista de Pedidos
-        </p>
+        <Title>Lista de Pedidos</Title>
 
         <TicketTable
           tickets={tickets}

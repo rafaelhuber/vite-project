@@ -5,6 +5,7 @@ import Meat from "../components/Meat";
 import OptionsAdd from "../components/OptionsAdd";
 
 import ButtonEnviar from "../components/ButtonEnviar";
+import Title from "../components/Title";
 
 function Register() {
   const [addBread, setaddBread] = useState([]);
@@ -16,9 +17,7 @@ function Register() {
   return (
     <div className="flex justify-center">
       <div className="relative top-[-100px] w-[600px] p-6 space-y-4 bg-white rounded-2xl">
-        <p className="px-4 py-2 text-4xl font-bold text-amber-500 text-center underline underline-offset-8">
-          Cadastre o Pedido
-        </p>
+        <Title>Cadastre o Pedido</Title>
 
         <label className="block text-gray-700 text-sm font-bold mb-2">
           Nome do cliente:
