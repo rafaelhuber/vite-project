@@ -1,5 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { Link, useLocation } from "react-router-dom";
+import burgerIcon from "../assets/hamburgericon.png";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -23,7 +24,7 @@ export default function Menus(props) {
               <Link to="/" onClick={() => props.linkMenu("/")}>
                 <img
                   alt="Your Company"
-                  src="..\public\hamburger_4639032.png"
+                  src={burgerIcon}
                   className="h-8 w-auto"
                 />
               </Link>
