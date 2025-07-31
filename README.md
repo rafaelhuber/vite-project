@@ -79,8 +79,6 @@ vite-project/
 └── README.md                     # Documentação principal do projeto (esse arquivo)
 ```
 
-````
-
 ---
 
 ## 🖼️ Capturas de Tela
@@ -117,6 +115,7 @@ vite-project/
 
 ---
 
+````
 ## 🛠️ Instalação e Execução Local
 
 1. **Clone o repositório:**
@@ -137,6 +136,7 @@ npm install
 ```bash
 npm run dev
 ```
+````
 
 > Acesse a aplicação em [http://localhost:5173](http://localhost:5173)
 
@@ -173,4 +173,5 @@ Contribuições são bem-vindas! Se você tiver sugestões de melhoria, sinta-se
 > Este projeto foi desenvolvido com fins educacionais e de portfólio. Fique à vontade para se inspirar, adaptar e contribuir. Obrigado por visitar!
 
 ```
-````
+
+```
