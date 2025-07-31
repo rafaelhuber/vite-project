@@ -87,7 +87,7 @@ vite-project/
 
 > Uma apresentação visual da hamburgueria, com o nome em destaque.
 
-<img src="./prints/home.png" alt="Cadastro de Pedidos" width="500"/>
+<img src="./prints/home.png" alt="home" width="500"/>
 
 ---
 
@@ -103,15 +103,15 @@ vite-project/
 
 > Exibição os pedidos realizados com status atualizado.
 
-<img src="./prints/filePedidos.png" alt="Cadastro de Pedidos" width="500"/>
+<img src="./prints/filaPedidos.png" alt="fila de Pedidos" width="500"/>
 
 ---
 
-### 📦 Fila de Pedidos
+### 📦 Controle do Pedidos
 
 > Exibição organizada dos pedidos realizados com status atualizado.
 
-<img src="./prints/Pedidos.png" alt="Cadastro de Pedidos" width="500"/>
+<img src="./prints/pedidos.png" alt="Controle dos Pedidos" width="500"/>
 
 ---
 
