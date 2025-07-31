@@ -1,8 +1,45 @@
-# 🍔 Vite Project
+# 🍔 Vite Project — Sistema de Pedidos Interativo
 
-Projeto desenvolvido com **React + Vite** e estilizado com **Tailwind CSS**.
+Este projeto é um sistema de gerenciamento de pedidos de uma hamburgueria, desenvolvido com React + Vite. Ele permite registrar, visualizar e acompanhar o status de pedidos de forma dinâmica e intuitiva.
 
----
+## 🚀 Tecnologias Utilizadas
+
+- [Vite](https://vitejs.dev/) — Build tool rápida para React
+- [React](https://reactjs.org/) — Biblioteca para criação de interfaces
+- [Tailwind CSS](https://tailwindcss.com/) — Framework utilitário de CSS
+- [Heroicons](https://heroicons.com/) — Ícones SVG otimizados para Tailwind
+- [Headless UI](https://headlessui.dev/) — Componentes acessíveis sem estilo
+
+## 🧩 Funcionalidades
+
+- ✅ Cadastro de pedidos com:
+
+  - Nome do cliente
+  - Escolha de pão e carne
+  - Adicionais personalizados
+
+- ✅ Visualização em tabela dos pedidos realizados
+- ✅ Alteração dinâmica de status dos pedidos (Ex: "Recebido", "Em preparo", "Pronto")
+- ✅ Alerta caso o usuário não selecione as opções obrigatórias
+- ✅ Exclusão de pedidos individualmente
+- ✅ Reutilização de componentes como `TicketRow` para diferentes contextos (ex: leitura ou edição)
+
+## 📁 Estrutura de Pastas
+
+```bash
+vite-project/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── router/
+│   ├── styles/
+│   ├── App.jsx
+│   ├── main.jsx
+├── public/
+├── package.json
+├── vite.config.js
+```
 
 ## 🖼️ Prévia do Projeto
 
@@ -24,53 +61,36 @@ Projeto desenvolvido com **React + Vite** e estilizado com **Tailwind CSS**.
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 📦 Instalação
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Heroicons](https://heroicons.com/)
-- [Headless UI](https://headlessui.dev/)
-
-## 📁 Estrutura do projeto
-
-vite-project/
-├── public/
-│ └── favicon.svg (ou logo)
-├── src/
-│ ├── assets/ # Imagens, ícones, fontes
-│ ├── components/ # Componentes reutilizáveis
-│ │ └── Header.jsx
-│ │ └── Footer.jsx
-│ │ └── Button.jsx
-│ ├── pages/ # Telas principais
-│ │ └── Home.jsx
-│ │ └── Cadastro.jsx
-│ │ └── Pedidos.jsx
-│ ├── routes/ # Gerenciamento de rotas (opcional)
-│ │ └── AppRoutes.jsx
-│ ├── styles/ # Tailwind + custom styles
-│ │ └── globals.css
-│ ├── App.jsx
-│ └── main.jsx
-├── prints/ # Prints da UI
-├── tailwind.config.js
-├── postcss.config.js
-├── index.html
-└── package.json
-
-## 📁 bash
+1. Clone o repositório:
 
 ```bash
-# Clone o repositório
 git clone https://github.com/rafaelhuber/vite-project.git
-
-# Acesse a pasta
 cd vite-project
+```
 
-# Instale as dependências
+````
+
+2. Instale as dependências:
+
+```bash
 npm install
+```
 
-# Rode o projeto
+3. Inicie o servidor de desenvolvimento:
+
+```bash
 npm run dev
 ```
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para abrir **Issues** ou enviar um **Pull Request**.
+
+## 🧑‍💻 Autor
+
+**Rafael Huber**
+🔗 [LinkedIn](https://www.linkedin.com/in/rafaelhuber)
+📧 [rafaelhuber@email.com](mailto:rafaelhuber@email.com)
+````
