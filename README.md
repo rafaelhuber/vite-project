@@ -103,7 +103,7 @@ vite-project/
 
 ### 📦 Fila de Pedidos
 
-> Exibição organizada dos pedidos realizados com status atualizado.
+> Exibição os pedidos realizados com status atualizado.
 
 ![Pedidos Screenshot](./prints/filaPedidos.png)
 
