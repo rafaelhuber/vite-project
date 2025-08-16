@@ -1,6 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { Link, useLocation } from "react-router-dom";
-import burgerIcon from "../assets/hamburgericon.png";
+import burgerIcon from "../assets/hamburgerIcon.png";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
